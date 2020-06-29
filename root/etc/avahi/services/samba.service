@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone='no'?>
+<!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+
+<service-group>
+  <name>${HOST_NAME}</name>
+  <service>
+    <host-name>${HOST_NAME}.local</host-name>
+    <type>_smb._tcp</type>
+    <port>445</port>
+  </service>
+  <service>
+    <host-name>${HOST_NAME}.local</host-name>
+    <type>_device-info._tcp</type>
+    <port>0</port>
+    <txt-record>model=RackMac</txt-record>
+  </service>
+</service-group>
