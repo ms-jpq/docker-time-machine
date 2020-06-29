@@ -4,7 +4,7 @@ name: Sync Readme
 on:
   push:
     branches:
-      - gates
+      - tim-apple
   schedule:
     - cron: "0 0 * * *" # daily
 
