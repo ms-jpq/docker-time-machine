@@ -4,4 +4,4 @@ set -eu
 set -o pipefail
 
 
-/usr/sbin/avahi-daemon -s
+/usr/sbin/nmbd --foreground --no-process-group
