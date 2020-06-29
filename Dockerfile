@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:focal
 
 
 ARG S6_VER="2.0.0.1"
@@ -26,4 +26,4 @@ COPY root /
 
 ## Cleanup
 RUN apt autoremove -y && \
-    apt clean && \
+    apt clean
