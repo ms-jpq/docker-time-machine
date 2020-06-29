@@ -21,7 +21,7 @@ Why? Because I like dogs.
 
 | Environmental Variables | Description          |
 | ----------------------- | -------------------- |
-| `SMB_NAME='🍏⏳'`       | what you see from 💻 |
+| `SMB_NAME='⏳🤖'`       | what you see from 💻 |
 | `SMB_USER=dog`          | your login           |
 | `SMB_PASSWORD=dog`      | your password        |
 | `PGID=0`                | user gid (advanced)  |
