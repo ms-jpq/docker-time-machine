@@ -13,4 +13,4 @@ useradd --system --non-unique --gid "$GROUP_NAME" --uid "$PUID" "$SMB_USER"
 printf '%s\n%s\n' "$SMB_PASSWORD" "$SMB_PASSWORD" | smbpasswd -s -a "$SMB_USER"
 
 
-chown "$SMB_USER":"$SMB_USER" '/share'
+chown "$SMB_USER":"$GROUP_NAME" '/share'
