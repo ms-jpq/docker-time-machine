@@ -1,4 +1,4 @@
-# Tim🍎 Machine
+# Docker Tim🍎 Machine
 
 Zero Configuration, time machine for MacOS
 
