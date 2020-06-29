@@ -13,5 +13,5 @@ sub() {
 
 export HOST_NAME="$(hostname)"
 
-sub '${HOST_NAME}' /etc/avahi/services/samba.service
+sub '${HOST_NAME},${SMB_NAME}' /etc/avahi/services/samba.service
 sub '${SMB_USER},${SMB_NAME}' /etc/samba/smb.conf

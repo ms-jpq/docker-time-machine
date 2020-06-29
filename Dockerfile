@@ -24,6 +24,8 @@ RUN apt update && \
 ## Scripts
 COPY root /
 ENV S6_CMD_WAIT_FOR_SERVICES=1 \
+    PGID=0 \
+    PUID=0 \
     SMB_USER=tim-apple \
     SMB_NAME='⏳🐙'
 VOLUME ["/share"]

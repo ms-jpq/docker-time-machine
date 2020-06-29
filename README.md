@@ -1,4 +1,4 @@
-# [Docker Tim🍎 Machine](https://ms-jpq.github.io/docker-time-machi)
+# [Docker Tim🍎 Machine](https://ms-jpq.github.io/docker-time-machine)
 
 Zero Configuration. Time machine for MacOS
 
