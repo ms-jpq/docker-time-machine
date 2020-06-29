@@ -4,12 +4,10 @@
 <service-group>
   <name>${HOST_NAME} - ${SMB_NAME}</name>
   <service>
-    <host-name>${HOST_NAME}.local</host-name>
     <type>_smb._tcp</type>
     <port>445</port>
   </service>
   <service>
-    <host-name>${HOST_NAME}.local</host-name>
     <type>_device-info._tcp</type>
     <port>0</port>
     <txt-record>model=TimeCapsule6</txt-record>
