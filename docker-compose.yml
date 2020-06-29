@@ -1,0 +1,11 @@
+---
+version: "3.7"
+
+services:
+  time_machine:
+    image: msjpq/time-machine
+    container_name: time-machine
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./:/share
