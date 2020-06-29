@@ -9,7 +9,7 @@ Thank you Tim 🍏, very cool.
 [![Docker Pulls](https://img.shields.io/docker/pulls/msjpq/time-machine.svg)](https://hub.docker.com/r/msjpq/time-machine/)
 
 ```sh
-docker run --net=host msjpq/time-machine
+docker run --net=host -v /my_folder/:/share msjpq/time-machine
 ```
 
 - User: `dog`
@@ -26,3 +26,19 @@ Why? Because I like dogs.
 | `SMB_PASSWORD=dog`      | your password        |
 | `PGID=0`                | user gid (advanced)  |
 | `PUID=0`                | user uid (advanced)  |
+
+## Docker Compose
+
+```yaml
+---
+version: "3.7"
+
+services:
+  time_machine:
+    image: msjpq/time-machine
+    container_name: time-machine
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./:/share
+```
