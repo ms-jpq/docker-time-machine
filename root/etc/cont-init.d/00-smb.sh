@@ -4,9 +4,12 @@ set -eu
 set -o pipefail
 
 
-useradd  -U -u 6006    "$SMB_USER"
-usermod  -o -u "$PUID" "$SMB_USER"
-groupmod -o -g "$PGID" "$SMB_USER"
+GROUP_NAME='time-machine-users'
+
+groupadd --non-unique --gid "$PGID" "$GROUP_NAME"
+useradd --system --non-unique --gid "$GROUP_NAME" --uid "$PUID" "$SMB_USER"
+
+
 printf '%s\n%s\n' "$SMB_PASSWORD" "$SMB_PASSWORD" | smbpasswd -s -a "$SMB_USER"
 
 

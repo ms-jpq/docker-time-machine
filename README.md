@@ -11,3 +11,8 @@ Thank you Tim 🍏, very cool.
 ```sh
 docker run --net=host msjpq/time-machine
 ```
+
+* User: `dog`
+* Password : `dog`
+
+Why? Because I like dogs.
