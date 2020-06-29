@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -eu
+set -o pipefail
+
+
+mkdir -p /run/dbus/
+
+exec /usr/bin/dbus-daemon --system --nofork --nopidfile

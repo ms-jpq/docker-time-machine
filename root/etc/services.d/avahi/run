@@ -4,4 +4,7 @@ set -eu
 set -o pipefail
 
 
-/usr/sbin/avahi-daemon -s
+s6-svwait /var/run/s6/services/dbus
+
+
+exec /usr/sbin/avahi-daemon --no-chroot
