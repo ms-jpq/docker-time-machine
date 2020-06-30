@@ -2,7 +2,7 @@
 
 Zero Configuration. Time machine for MacOS
 
-Thank you Tim 🍏, very cool.
+Thank you Tim🍏, very cool.
 
 ## Show me
 
