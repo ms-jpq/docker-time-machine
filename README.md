@@ -47,4 +47,4 @@ services:
 
 Say hi to my dog!
 
-[my dog]()
+[my dog](https://raw.githubusercontent.com/ms-jpq/docker-time-machine/tim-apple/preview/dog.JPG)
