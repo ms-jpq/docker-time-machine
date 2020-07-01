@@ -19,13 +19,13 @@ Why? Because I like dogs.
 
 ## Fancy
 
-| Environmental Variables | Description          |
-| ----------------------- | -------------------- |
-| `SMB_NAME='🍏⏳'`       | what you see from 💻 |
-| `SMB_USER=dog`          | your login           |
-| `SMB_PASSWORD=dog`      | your password        |
-| `PGID=0`                | user gid (advanced)  |
-| `PUID=0`                | user uid (advanced)  |
+| Environmental Variables   | Description          |
+| ------------------------- | -------------------- |
+| `SMB_NAME='Time Machine'` | what you see from 💻 |
+| `SMB_USER=dog`            | your login           |
+| `SMB_PASSWORD=dog`        | your password        |
+| `PGID=0`                  | user gid (advanced)  |
+| `PUID=0`                  | user uid (advanced)  |
 
 ## Docker Compose
 
