@@ -28,7 +28,8 @@ ENV S6_CMD_WAIT_FOR_SERVICES=1 \
     PUID=0 \
     SMB_NAME='Time Machine' \
     SMB_USER=dog \
-    SMB_PASSWORD=dog
+    SMB_PASSWORD=dog \
+    SMB_MAX_SIZE_MB=0
 VOLUME ["/share"]
 
 

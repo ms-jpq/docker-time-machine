@@ -13,4 +13,4 @@ sub() {
 
 export HOST_NAME="$(hostname)"
 
-sub '${SMB_USER},${SMB_NAME}' /etc/samba/smb.conf
+sub '${SMB_USER},${SMB_NAME},${SMB_MAX_SIZE_MB}' /etc/samba/smb.conf
