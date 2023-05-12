@@ -4,4 +4,4 @@ set -eu
 set -o pipefail
 
 
-exec /usr/sbin/nmbd --foreground --no-process-group --log-stdout
+exec /usr/sbin/nmbd --foreground --no-process-group --debug-stdout
